@@ -3,6 +3,8 @@
 - [AWS CLI](https://aws.amazon.com/pt/cli/)
 - [Terraform - Providers](https://registry.terraform.io/browse/providers)
     - [AWS](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+    - [Data Sources - aws_eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/eks_cluster)
+    - [Data Sources - aws_eks_cluster_auth](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/eks_cluster_auth)
 - [Terraform - Modules](https://registry.terraform.io/browse/modules)
     - [EKS](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest)
 
