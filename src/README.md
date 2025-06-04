@@ -3,6 +3,8 @@
 - [AWS CLI](https://aws.amazon.com/pt/cli/)
 - [Terraform - Providers](https://registry.terraform.io/browse/providers)
     - [AWS](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+- [Terraform - Modules](https://registry.terraform.io/browse/modules)
+    - [EKS](https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest)
 
 > **Nota:** O ECS é uma solução desenvolvida pela AWS para ser simples de configurar e acelerar o processo de lançar aplicações Docker na nuvem. Além disso, se integra facilmente a outros serviços como os Application Load Balancer (ALB) e os autoscaling groups.
 O EKS por sua vez é uma ferramenta open source (código aberto), que nos fornece maior flexibilidade, com APIs e uma grande comunidade de pessoas que desenvolvem, o que torna erros mais fáceis de serem corrigidos.
