@@ -40,13 +40,8 @@ resource "kubernetes_deployment" "Django-API" {
 
           liveness_probe {
             http_get {
-              path = "/"
-              port = 80
-
-              http_header {
-                name  = "X-Custom-Header"
-                value = "Awesome"
-              }
+              path = "/clientes/"
+              port = 8000
             }
 
             initial_delay_seconds = 3
