@@ -15,3 +15,5 @@ Outro ponto importante é a questão do ECS usar tecnologias proprietárias, o q
 
 ## Deploy
 - `terraform init` iniciar/configurar diretório
+- `terraform plan` visualizar o que será criado
+- `terraform apply` aplicar as mudanças
